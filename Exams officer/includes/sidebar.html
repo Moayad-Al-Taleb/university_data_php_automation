@@ -1,0 +1,25 @@
+<div class="flex">
+  <div class="sidebar d-flex fixed-top flex-column flex-shrink-0 p-3 text-white bg-dark"
+    style="width: 280px; min-height: 100vh; height: 100%">
+    <ion-icon id="side-close-icon" name="close-outline" size="large"></ion-icon>
+    <a href="/" class="flex align-items-center mb-3 mt-3 mb-md-0 me-md-auto text-white text-decoration-none">
+      <img src="../../assets/imgs/logo.png" class="bi me-2" width="50" height="50" alt="" />
+      <span class="fs-5">قسم الامتحانات</span>
+    </a>
+    <hr />
+    <ul class="nav nav-pills mt-5 gap-3 flex-column mb-auto">
+      <li>
+        <a href="exams_marks.php" class="nav-link text-white"> ادارة علامات الامتحانات </a>
+      </li>
+    </ul>
+  </div>
+  <div class="main-container">
+    <nav class="bg-dark py-3 d-flex justify-content-between align-items-center px-4 text-white">
+      <div class="d-flex gap-2 align-items-stretch">
+        <ion-icon id="side-show-icon" name="reorder-four-outline" size="large"></ion-icon>
+        <h4>
+          <?php echo $page_title ?>
+        </h4>
+      </div>
+      <a href="../../logout.php" class="text-white">تسجيل الخروج</a>
+    </nav>

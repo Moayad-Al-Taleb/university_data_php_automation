@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: "Almarai", sans-serif;
+}
+p,
+a,
+span,
+label,
+textarea,
+input,
+button,
+table,
+th,
+td,
+tr {
+  font-family: "Tajawal", sans-serif;
+  font-size: 17px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+}
+.img {
+  width: 40%;
+}
+.img img {
+  width: 100%;
+}
+.form {
+  background-color: #4a72bc3b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  min-height: 450px;
+  width: 450px;
+  max-width: 80%;
+  padding: 16px 32px;
+  box-shadow: 0px 5px 20px #4a72bc86;
+  border-radius: 30px;
+}
+.form h3 {
+  font-size: 2.3rem;
+  text-align: center;
+  color: #4a72bc;
+}
+.form p {
+  color: #464646;
+}
+.form form {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.input-field label {
+  color: #506ea7;
+}
+.input-field input {
+  border: 1px solid transparent;
+  background-color: transparent;
+  border-bottom: 1px solid #4a72bc;
+  outline: none;
+}
+.submit-btn {
+  background-color: #4a72bc;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 0;
+}
+@media screen and (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
+}
